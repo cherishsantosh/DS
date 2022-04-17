@@ -1,6 +1,7 @@
 public class insertionSort {
     public static void main(String args[]) {
         int arr[] = { 7, 8, 1, 3, 2 };
+        
         // insertion sort
         for (int i = 1; i < arr.length; i++) {
             int current = arr[i];
@@ -10,7 +11,7 @@ public class insertionSort {
                 arr[j+1] = arr[j];
                 j--;
             }
-
+            // Placement
             arr[j+1] = current;
         }
         printArray(arr, "eee");
