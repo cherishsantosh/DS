@@ -14,12 +14,12 @@ public class insertionSort {
             // Placement
             arr[j+1] = current;
         }
-        printArray(arr, "eee");
+        printArray(arr, "after");
     }
 
     // Print array
     public static void printArray(int arr[], String mode) {
-        System.out.print("Array " + mode + " bubble sort :");
+        System.out.print("Array " + mode + " insertionSort :");
         for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + " ");
         }
